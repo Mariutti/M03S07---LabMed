@@ -1,0 +1,12 @@
+Exercício 01 - Defina a diferença entre Spring e Spring Boot
+Conforme sua compreensão no assunto responda o questionamento.
+
+R - Spring é o framework para Java para facilitar aplicações de projetos J2EE. O Spring traz a Inversão de Controle
+(IoC) e Injeção de Dependência (DI), além da integração com módulos e bibliotecas externas, como Hibernate, JUnit e
+outras.
+
+Já o Spring Boot é uma extensão do Spring Framework, com pré-configuração de diversos recursos, como anotações e novas
+dependências.
+
+
+
