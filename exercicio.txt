@@ -1,12 +1,8 @@
-Exercício 01 - Defina a diferença entre Spring e Spring Boot
-Conforme sua compreensão no assunto responda o questionamento.
+[M3S08] Ex 1 - Defina o conceito de CI e CD no processo de deploy e qual as suas vantagens.
 
-R - Spring é o framework para Java para facilitar aplicações de projetos J2EE. O Spring traz a Inversão de Controle
-(IoC) e Injeção de Dependência (DI), além da integração com módulos e bibliotecas externas, como Hibernate, JUnit e
-outras.
+CI -  Integração Contínua é o modelo de desenvolvimento onde o software é compilado e testado continuamente, sempre que
+um desenvolvedor envia código para a aplicação/repositório.
 
-Já o Spring Boot é uma extensão do Spring Framework, com pré-configuração de diversos recursos, como anotações e novas
-dependências.
-
-
+CD - Entrega Contínua é quando no desenvolvimento do software cada alteração do código passa por todo o pipeline de
+produção, de maneira automatizada, para em seguida ser posto em produção.
 

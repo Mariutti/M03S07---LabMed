@@ -1,0 +1,140 @@
+{
+	"info": {
+		"_postman_id": "434f461a-3b00-4461-8ea4-1512da8b293b",
+		"name": "M03S08",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28279240"
+	},
+	"item": [
+		{
+			"name": "Exercício",
+			"item": [
+				{
+					"name": "Save Doctor",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Lemmy Kilmister\",\r\n    \"email\": \"lemmy@email.com\",\r\n    \"phoneNumb\": \"5555-7777\",\r\n    \"crm\": \"123456\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://m03s07-labmed-producao.up.railway.app/doctors",
+							"protocol": "https",
+							"host": [
+								"m03s07-labmed-producao",
+								"up",
+								"railway",
+								"app"
+							],
+							"path": [
+								"doctors"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "List Doctors",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://m03s07-labmed-producao.up.railway.app/doctors",
+							"protocol": "http",
+							"host": [
+								"m03s07-labmed-producao",
+								"up",
+								"railway",
+								"app"
+							],
+							"path": [
+								"doctors"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Show Doctor By id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://m03s07-labmed-producao.up.railway.app/doctors/ebb19d38-5df2-4109-88ed-97cd0f9abd52",
+							"protocol": "https",
+							"host": [
+								"m03s07-labmed-producao",
+								"up",
+								"railway",
+								"app"
+							],
+							"path": [
+								"doctors",
+								"ebb19d38-5df2-4109-88ed-97cd0f9abd52"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Doctor",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"John Doe3\",\r\n    \"email\": \"johndoe@email.com\",\r\n    \"phoneNumb\": \"5555-7777\",\r\n    \"crm\": \"987654\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://m03s07-labmed-producao.up.railway.app/doctors",
+							"protocol": "https",
+							"host": [
+								"m03s07-labmed-producao",
+								"up",
+								"railway",
+								"app"
+							],
+							"path": [
+								"doctors"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Doctor",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://m03s07-labmed-producao.up.railway.app/doctors/ebb19d38-5df2-4109-88ed-97cd0f9abd52",
+							"protocol": "https",
+							"host": [
+								"m03s07-labmed-producao",
+								"up",
+								"railway",
+								"app"
+							],
+							"path": [
+								"doctors",
+								"ebb19d38-5df2-4109-88ed-97cd0f9abd52"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
